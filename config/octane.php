@@ -179,7 +179,7 @@ return [
     | files are changed, Octane will automatically reload your workers.
     |
     */
-
+    'watcher' => null,
     'watch' => [
         'app',
         'bootstrap',
